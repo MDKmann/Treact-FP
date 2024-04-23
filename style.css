@@ -6,13 +6,80 @@
     box-sizing: border-box;
 }
 
-
-
-nav {
+.row {
     width: 100%;
     max-width: 1280px;
+    margin: 0 auto;
 }
 
-.nav__container {
+nav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+
 }
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* 
+
+LANDING 
+
+*/
+
+.nav__logo--wrapper,
+.nav__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo {
+    height: 40px;
+    width: 40px;
+    margin: 0 16px 4px 0;
+
+}
+
+.nav__logo-name {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.nav__links--page,
+.nav__links--user {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__links--user {
+    margin-left: 32px;
+}
+
+.nav__link--anchor,
+.nav__link--anchor-primary {
+    padding: 12px 32px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.page-link {
+    padding: 0 24px;
+}
+
+.nav__link--anchor-primary {
+    margin-right: 8px;
+    background-color: rgba(100, 21, 255, 1);
+    color: white;
+    border-radius: 35px;
+}
+
+
+
