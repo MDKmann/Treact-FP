@@ -28,9 +28,13 @@ ul {
     list-style: none;
 }
 
+.purple {
+    color: rgba(100, 21, 255, 1);
+}
+
 /* 
 
-LANDING 
+NAVIGATION BAR
 
 */
 
@@ -81,5 +85,12 @@ LANDING
     border-radius: 35px;
 }
 
+.header__container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
 
-
+.header__description--container {
+    width: 40%;
+}
