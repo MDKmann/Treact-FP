@@ -88,9 +88,53 @@ NAVIGATION BAR
 .header__container {
     height: 100vh;
     display: flex;
+    justify-content: center;
     align-items: center;
+    margin: 96px 0;
 }
 
 .header__description--container {
     width: 40%;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+
+.header__img--wrapper {
+    width: 60%;
+}
+
+.header__img {
+    width: 100%;
+}
+
+.header__input--wrapper {
+    width: 100%;
+    max-width: fit-content;
+    border: 2px solid lightgray;
+    border-radius: 40px;
+    padding: 8px;
+}
+
+.header__input {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(211, 211, 211);
+    border: none;
+    padding-left: 16px;
+    margin-right: 56px;
+}
+
+placeholder {
+    color: lightgray;
+}
+
+.header__input--button {
+    font-size: 16px;
+    background-color: rgba(100, 21, 255, 1);
+    color: white;
+    padding: 12px 32px;
+    border-radius: 40px;
 }
