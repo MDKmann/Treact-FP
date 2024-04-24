@@ -48,6 +48,12 @@ h1 {
 h2 {
     font-size: 48px;
     font-weight: 900;
+    letter-spacing: .125rem;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 700;
 }
 
 h5 {
@@ -61,6 +67,7 @@ p {
     font-size: 18px;
     margin: 32px 0;
     line-height: 1.5;
+    color: rgba(125, 125, 125, 1);
 }
 
 /* 
@@ -191,6 +198,10 @@ FEATURES
 
 */
 
+.container {
+    padding: 80px 0;
+}
+
 .features__row {
     display: flex;
     flex-direction: column;
@@ -202,10 +213,40 @@ FEATURES
     width: 100%;
     max-width: 560px;
     text-align: center;
+    line-height: 1.75;
 }
 
 .features__body {
+   display: flex;
+   flex-wrap: wrap;
+
+}
+
+.feature__img--wrapper {
+    width: 100%;
+    max-width: fit-content;
+    height: fit-content;
+    border: 2px solid rgba(211, 211, 211, 0.5);
+    border-radius: 100px;
+    padding: 20px;
     display: flex;
-    flex-wrap: wrap;
+}
+
+.feature {
+    display: flex;
     width: calc(100% / 3);
+}
+
+.feature__text {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    max-width: 210px;
+    margin-left: 16px;
+    padding-top: 16px;
+}
+
+.feature__text--para {
+    line-height: 1.75;
+    margin-top: 16px;
 }
