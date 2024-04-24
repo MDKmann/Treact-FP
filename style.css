@@ -22,6 +22,15 @@ nav {
 
 a {
     text-decoration: none;
+    cursor:pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+input:focus {
+    outline: none;
 }
 
 ul {
@@ -86,7 +95,6 @@ NAVIGATION BAR
 }
 
 .header__container {
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,6 +109,16 @@ h1 {
     font-size: 48px;
 }
 
+#landing {
+    height: calc(100vh - 44px);
+}
+
+.header__description--para {
+    font-size: 18px;
+    margin: 32px 0;
+    line-height: 1.5;
+}
+
 
 .header__img--wrapper {
     width: 60%;
@@ -113,7 +131,7 @@ h1 {
 .header__input--wrapper {
     width: 100%;
     max-width: fit-content;
-    border: 2px solid lightgray;
+    border: 2px solid rgba(211, 211, 211, 0.5);
     border-radius: 40px;
     padding: 8px;
 }
@@ -127,14 +145,29 @@ h1 {
     margin-right: 56px;
 }
 
-placeholder {
-    color: lightgray;
+.header__input::placeholder {
+    color: rgba(211, 211, 211, 0.85);
 }
 
 .header__input--button {
     font-size: 16px;
+    font-weight: 600;
     background-color: rgba(100, 21, 255, 1);
     color: white;
     padding: 12px 32px;
+    border: none;
     border-radius: 40px;
+}
+
+.header__description--subheader {
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(164, 168, 174);
+    margin: 64px 0 16px 0;
+}
+
+.header__description--img {
+    opacity: .5;
+    width: 100%;
+    max-width: 400px;
 }
