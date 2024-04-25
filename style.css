@@ -27,6 +27,13 @@ a {
 
 button {
     cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgba(100, 21, 255, 1);
+    color: white;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 40px;
 }
 
 input:focus {
@@ -48,6 +55,12 @@ h1 {
 h2 {
     font-size: 48px;
     font-weight: 900;
+    letter-spacing: .125rem;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 700;
     letter-spacing: .125rem;
 }
 
@@ -175,16 +188,6 @@ NAVIGATION BAR
     color: rgba(211, 211, 211, 0.85);
 }
 
-.header__input--button {
-    font-size: 16px;
-    font-weight: 600;
-    background-color: rgba(100, 21, 255, 1);
-    color: white;
-    padding: 12px 32px;
-    border: none;
-    border-radius: 40px;
-}
-
 .header__description--subheader {
     font-size: 12px;
     font-weight: 600;
@@ -278,3 +281,37 @@ QUALITY WORK
     width: 100%;
 }
 
+/* 
+
+STEPS
+
+*/
+
+.steps__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.steps__description--container {
+    width: 45%;
+}
+
+.steps__img--wrapper {
+    width: 50%;
+    border: 2px solid rgba(211, 211, 211, 0.25);
+}
+
+.steps__img {
+    width: 100%;
+}
+
+
+.steps__list--item {
+    display: flex;
+    justify-content:space-between;
+}
+
+.steps__list--text {
+    display: flex;
+    flex-direction: column;
+}
