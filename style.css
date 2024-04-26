@@ -308,12 +308,16 @@ STEPS
 
 .steps__list--item {
     display: flex;
-    justify-content:space-between;
+    flex-wrap: 
 }
 
 .steps__list--text {
     display: flex;
     flex-direction: column;
+}
+
+.list__item--number {
+    padding-right: 26px;
 }
 
 
