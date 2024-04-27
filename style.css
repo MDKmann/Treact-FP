@@ -308,7 +308,7 @@ STEPS
 
 .steps__list--item {
     display: flex;
-    flex-wrap: 
+    margin-top: 32px;
 }
 
 .steps__list--text {
@@ -317,10 +317,9 @@ STEPS
 }
 
 .list__item--number {
+    color: rgb(226, 232, 240);
     padding-right: 26px;
 }
-
-
 /* 
 
 VALUES
@@ -356,10 +355,18 @@ VALUES
     flex-direction: column;
 }
 
+.values__principle--container {
+    display: flex;
+}
+
 i {
     width: 40px;
     height: 40px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(44, 255, 21);
 }
+
 
 /* 
 
