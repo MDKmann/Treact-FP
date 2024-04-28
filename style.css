@@ -301,14 +301,16 @@ STEPS
     
 }
 
+.steps__list {
+    margin-top:32px;
+}
+
 .steps__img {
     width: 100%;
 }
 
-
 .steps__list--item {
     display: flex;
-    flex-wrap: 
 }
 
 .steps__list--text {
@@ -317,9 +319,22 @@ STEPS
 }
 
 .list__item--number {
+    font-size: 36px;
+    color: #cbd5e0;
     padding-right: 26px;
 }
 
+.list__item--title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.list__item--para {
+    font-size: 14px;
+    max-width: 320px;
+    max-height: 56px;
+    margin: 16px 0 0 0;
+}
 
 /* 
 
@@ -415,4 +430,5 @@ Pricing
 .feature__text--para {
     line-height: 1.75;
     margin-top: 16px;
+    
 }
