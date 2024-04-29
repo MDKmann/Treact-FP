@@ -371,10 +371,18 @@ VALUES
     flex-direction: column;
 }
 
+.values__principle--container {
+    display: flex;
+}
+
 i {
     width: 40px;
     height: 40px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(44, 255, 21);
 }
+
 
 /* 
 
