@@ -383,8 +383,21 @@ VALUES
     margin-right: 16px;
 }
 
-i {
+.briefcase-icon__wrapper {
+    background-color: #feb2b2;
+}
+
+.dollar-icon,
+.briefcase-icon {
    font-size: 20px;
+   color: #9ae6b4;
+   filter: brightness(50%);
+
+}
+
+.briefcase-icon {
+    color: #feb2b2;
+    filter: brightness(50%);
 }
 
 .values__principle--container {
@@ -418,37 +431,16 @@ Pricing
     text-align: center;
 }
 
-.features__body {
+.pricing__body {
    display: flex;
-   flex-wrap: wrap;
-
+   width: 100%;
 }
 
-.feature__img--wrapper {
-    width: 100%;
-    max-width: fit-content;
-    height: fit-content;
-    border: 2px solid rgba(211, 211, 211, 0.5);
-    border-radius: 100px;
-    padding: 20px;
-    display: flex;
-}
-
-.feature {
-    display: flex;
-    width: calc(100% / 3);
-}
-
-.feature__text {
+.plan__container {
     display: flex;
     flex-direction: column;
-    width: fit-content;
-    max-width: 210px;
-    margin-left: 16px;
-    padding-top: 16px;
-}
-
-.feature__text--para {
-    line-height: 1.75;
-    margin-top: 16px;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    height: 600px;
 }
