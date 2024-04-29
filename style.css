@@ -442,5 +442,16 @@ Pricing
     align-items: center;
     text-align: center;
     width: calc(100% / 3);
-    height: 600px;
+    height: 720px;
+}
+
+.plan__wrapper {
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.plan__text {
+   margin: auto 0;
 }
