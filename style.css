@@ -371,16 +371,29 @@ VALUES
     flex-direction: column;
 }
 
+.dollar-icon__wrapper,
+.briefcase-icon__wrapper {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9ae6b4;
+    border-radius: 100%;
+    margin-right: 16px;
+}
+
+i {
+   font-size: 20px;
+}
+
 .values__principle--container {
     display: flex;
 }
 
-i {
-    width: 40px;
-    height: 40px;
-    font-size: 20px;
-    padding: 10px;
-    background-color: rgb(44, 255, 21);
+.values__principle--header {
+    display: flex;
+    align-items: center;
 }
 
 
@@ -438,5 +451,4 @@ Pricing
 .feature__text--para {
     line-height: 1.75;
     margin-top: 16px;
-    
 }
