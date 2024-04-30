@@ -12,6 +12,15 @@
     margin: 0 auto;
 }
 
+
+.quality__row,
+.steps__row,
+.values__row,
+.testimonials__row {
+    display: flex;
+    justify-content: space-between;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -287,10 +296,6 @@ STEPS
 
 */
 
-.steps__row {
-    display: flex;
-    justify-content: space-between;
-}
 
 .steps__description--container {
     width: 45%;
@@ -341,11 +346,6 @@ STEPS
 VALUES
 
 */
-
-.values__row {
-    display: flex;
-    justify-content: space-between;
-}
 
 .values__description--container {
     width: 45%;
@@ -548,4 +548,25 @@ Pricing
 .red-button {
    background-image: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
 }
+
+/* 
+
+TESTIMONIALS 
+
+*/
+
+.testimonials__img--wrapper {
+    width: 50%;
+    margin-right: 64px;
+}
+
+.testimonials__content--container {
+    width: 50%;
+    max-width: 640px;
+}
+
+.fa-star {
+    color: rgba(246, 173, 85, 1);
+}
+
 
