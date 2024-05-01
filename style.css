@@ -628,10 +628,51 @@ GET STARTED
 */
 
 .get-started__row {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 84px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.get-started__decoration-container {
+    background-color: #6415ff;
+    height: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.get-started__tagline {
+    font-size: 30px;
+    color: #f7fafc;
+    max-width: 480px;
+    width: 100%;
+}
+
+.get-started__buttons--container {
+    width: 100%;
+    max-width: 400px;
 }
 
 .get-started__button--wrapper {
+    width: 100%;
+    height: 66px;
     display: flex;
+}
+
+.get-started__button {
+    max-width: 176px;
+    width: 100%;
+    margin-left: 32px;
+}
+
+.start-button {
+    background-color: #f56565;
+}
+
+.contact-button {
+    border: 1px solid #f7fafca6;
 }
