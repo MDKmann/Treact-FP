@@ -623,6 +623,85 @@ TESTIMONIALS
 
 /* 
 
+FAQS 
+
+*/
+
+.faqs__row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faqs__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 900px;
+    width: 100%;
+}
+
+.faq__dropdown {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/* 
+
+DROPDOWN BUTTON 
+
+*/
+
+.dropbtn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    color: #2d3748;
+    background-color: #edf2f7;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: #d6dde3;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    transition: all 700ms ease;
+}
+
+.dropdown-content {
+    transition: all 700ms ease;
+}
+
+.dropdown__para {
+    opacity: 0;
+    position: absolute;
+    transition: all 300ms ease;
+    overflow: auto;
+    background-color: #d6dde3;
+    z-index: 2;
+    margin: 0 0 24px 0;
+}
+
+.dropdown__para {
+    opacity: 1;
+}
+
+.dropbtn.1 {
+    margin: 0 0 120px 0;
+}
+
+
+
+
+
+/* 
+
 GET STARTED
 
 */
@@ -630,7 +709,7 @@ GET STARTED
 .get-started__row {
     max-width: 1280px;
     width: 100%;
-    margin: 0 84px;
+    margin: 0 116px;
     display: flex;
     justify-content: space-between;
     align-items: center;

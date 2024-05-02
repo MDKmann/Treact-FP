@@ -6,6 +6,7 @@
     <title>Treact | Beautiful React Templates for You</title>
     <link rel="stylesheet" href="./style.css">
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </head>
 <body>
     <section id="landing">
@@ -399,65 +400,26 @@
                 </div>
             </div>
         </section>
-        <section id="features">
-            <div class="features__container container">
-                <div class="features__row row">
+        <section id="faqs">
+            <div class="faqs__container container">
+                <div class="faqs__row row">
                     <h5 class="section__subtitle purple">FAQS</h5>
                     <h2 class="section__tagline">You have <span class="purple">Questions ?</span></h2>
-                    <p class="section__description fea-description">And we have got answers to all of them. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <div class="features__body">
-                        <div class="feature">
-                            <figure class="feature__img--wrapper">
-                                <img src="https://treact.owaiskhan.me/static/media/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg" alt="feature icon" class="feature__img">
-                            </figure>
-                            <div class="feature__text">
-                                <h4 class="feature__text--title">Secure</h4>
-                                <p class="feature__text--para">We strictly only deal with vendors that provide top notch security.</p>
-                            </div>
-                        </div>
-                        <div class="feature">
-                            <figure class="feature__img--wrapper">
-                                <img src="https://treact.owaiskhan.me/static/media/support-icon.f9253ffa8cb6ffde5bbaa05eb5136375.svg" alt="feature icon" class="feature__img">
-                            </figure>
-                            <div class="feature__text">
-                                <h4 class="feature__text--title">24/7 Support</h4>
-                                <p class="feature__text--para">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
-                            </div>
-                        </div>
-                        <div class="feature">
-                            <figure class="feature__img--wrapper">
-                                <img src="https://treact.owaiskhan.me/static/media/customize-icon.367468c90fd796009b97fbfba67b2c6a.svg" alt="feature icon" class="feature__img">
-                            </figure>
-                            <div class="feature__text">
-                                <h4 class="feature__text--title">Customizable</h4>
-                                <p class="feature__text--para">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
-                            </div>
-                        </div>
-                        <div class="feature">
-                            <figure class="feature__img--wrapper">
-                                <img src="https://treact.owaiskhan.me/static/media/reliable-icon.1367510a8f0a1bec76dc425d25f92f43.svg" alt="feature icon" class="feature__img">
-                            </figure>
-                            <div class="feature__text">
-                                <h4 class="feature__text--title">Reliable</h4>
-                                <p class="feature__text--para">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
-                            </div>
-                        </div>
-                        <div class="feature">
-                            <figure class="feature__img--wrapper">
-                                <img src="https://treact.owaiskhan.me/static/media/fast-icon.dbb971a73d4805d2fc3bcdacdb55beba.svg" alt="feature icon" class="feature__img">
-                            </figure>
-                            <div class="feature__text">
-                                <h4 class="feature__text--title">Fast</h4>
-                                <p class="feature__text--para">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
-                            </div>
-                        </div>
-                        <div class="feature">
-                            <figure class="feature__img--wrapper">
-                                <img src="https://treact.owaiskhan.me/static/media/simple-icon.673b7e1750b2a4ef32907fc164828d00.svg" alt="feature icon" class="feature__img">
-                            </figure>
-                            <div class="feature__text">
-                                <h4 class="feature__text--title">Easy</h4>
-                                <p class="feature__text--para">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
+                    <p class="section__description faq-description">And we have got answers to all of them. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="faqs__body">
+                        <div class="dropdown">
+                            <button onclick="dropFunction()" class="dropbtn">
+                                <h4 class="faq__text--tagline">
+                                    Are all the templates easily customizable ?
+                                </h4>
+                                <div class="down-icon__wrapper">
+                                    <i class="fas fa-chevron-down down-icon"></i>
+                                </div>
+                            </button>
+                            <div id="dropDropdown" class="dropdown-content">
+                                <span class="dropdown__para">
+                                    Yes, they all are. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                </span>
                             </div>
                         </div>
                     </div>
