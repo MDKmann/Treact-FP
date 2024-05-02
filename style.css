@@ -647,6 +647,9 @@ FAQS
     margin: 0 auto;
 }
 
+.faq__text--tagline {
+    margin-right: 320px;
+}
 
 /* 
 
@@ -664,7 +667,9 @@ DROPDOWN BUTTON
 }
 
 .dropbtn:hover,
-.dropbtn:focus {
+.dropbtn:focus,
+.dropdown__para:hover,
+.dropdown__para:focus {
     background-color: #d6dde3;
 }
 
@@ -683,8 +688,9 @@ DROPDOWN BUTTON
     position: absolute;
     transition: all 300ms ease;
     overflow: auto;
-    background-color: #d6dde3;
+    background-color: #edf2f7;
     z-index: 2;
+    padding: 16px 8px 8px 8px;
     margin: 0 0 24px 0;
 }
 
@@ -754,4 +760,18 @@ GET STARTED
 
 .contact-button {
     border: 1px solid #f7fafca6;
+}
+
+/* 
+
+FOOTER
+
+*/
+
+.footer__logo--wrapper,
+.footer__social--container,
+.footer__company-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
