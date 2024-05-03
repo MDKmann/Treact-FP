@@ -872,4 +872,88 @@ SMALL PHONES, SMALL TABLETS, LARGER SMARTPHONES
 
 @media (max-width: 768px) {
 
+/* 
+
+NAVIGATION BAR
+
+*/
+
+.nav__links {
+    display: none;
+}
+
+
+/* 
+
+HEADER
+
+*/
+
+body {
+    margin: 0 32px;
+}
+
+.header__container,
+.header__description--wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.header__description--container {
+    width: 100%;
+}
+
+.med__header-text {
+    text-align: center;
+}
+
+
+
+/* 
+
+FEATURES
+
+*/
+
+.feature {
+    display: flex;
+    width: calc(100% / 2);
+}
+
+/* 
+
+VALUES
+
+*/
+
+
+.values__principle--container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 180px;
+}
+
+/* 
+
+PRICING
+
+*/
+
+.pricing__body {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.plan__container {
+    width: calc(100% / 2);
+   
+}
+
+.pricing__tagline {
+    text-align: center;
+}
+
 }
