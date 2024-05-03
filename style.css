@@ -38,7 +38,7 @@ button {
     cursor: pointer;
     font-size: 16px;
     font-weight: 600;
-    background-color: rgba(100, 21, 255, 1);
+    background-color: #6415ff;
     color: white;
     padding: 12px 32px;
     border: none;
@@ -155,7 +155,7 @@ NAVIGATION BAR
 
 .nav__link--anchor-primary {
     margin-right: 8px;
-    background-color: rgba(100, 21, 255, 1);
+    background-color: #6415ff;
     color: white;
     border-radius: 35px;
 }
@@ -291,6 +291,10 @@ QUALITY WORK
     width: 45%;
 }
 
+.a__button {
+    color: #f7fafc;
+}
+
 .quality__img--wrapper {
     width: 50%;
     border: 2px solid rgba(211, 211, 211, 0.25);
@@ -299,6 +303,8 @@ QUALITY WORK
 .quality__img {
     width: 100%;
 }
+
+
 
 /* 
 
@@ -855,4 +861,15 @@ FOOTER
 .footer__social--anchor {
     padding: 4px;
     color: #6415ff;
+}
+
+
+/* 
+
+SMALL PHONES, SMALL TABLETS, LARGER SMARTPHONES
+
+*/
+
+@media (max-width: 768px) {
+
 }
