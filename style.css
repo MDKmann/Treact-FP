@@ -134,6 +134,7 @@ NAVIGATION BAR
 .nav__links--page,
 .nav__links--user {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
