@@ -979,8 +979,6 @@ main {
 }
 
 
-
-
 h2 {
     font-size: 36px;
 }
@@ -1066,7 +1064,7 @@ FEATURES
 
 /* 
 
-QUALITY
+QUALITY, STEPS, VALUES
 
 */
 
@@ -1081,13 +1079,18 @@ QUALITY
     padding: 32px
 }
 
-.quality__row {
+.quality__row,
+.values__row {
     height: 100%;
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
     max-width: 448px;
-    
+}
+
+.steps__row {
+    height: 100%;
+    max-width: 448px;
 }
 
 .quality__content {
@@ -1097,22 +1100,27 @@ QUALITY
 
 
 
-.quality__img--wrapper {
+.quality__img--wrapper,
+.steps__img--wrapper,
+.values__img--wrapper {
     width: 100%;
     height: auto;
+    margin-bottom: 48px;
 }
 
-/* 
 
-VALUES
+.values__description--container,
+.steps__description--container {
+    width: auto;
+}
 
-*/
-
+.list__item--number {
+    padding: 0;
+}
 
 .values__principle--container {
     display: flex;
     flex-direction: column;
-    margin-top: 180px;
 }
 
 /* 
