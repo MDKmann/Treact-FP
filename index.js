@@ -1,4 +1,3 @@
-Example
 function dropFunction() {
   var x = document.getElementById("dropDropdown");
   if (x.style.opacity === "0") {
@@ -10,3 +9,10 @@ function dropFunction() {
   }
 }
 
+function openMenu() {
+    document.body.classList += " menu--open"
+}
+
+function closeMenu() {
+    document.body.classList.remove( 'menu--open')
+}
