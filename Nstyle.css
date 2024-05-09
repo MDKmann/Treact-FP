@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+/* <!-- IMPORTED FONTS --> */
+
+/* <!-- START SITE WIDE DEFAULT FORMATTING --> */
+* {
+  font-family: "Inter", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 2rem;
+}
+
+.row {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+
+
+/* <!-- END SITE WIDE DEFAULT FORMATTING --> */
+
+/* <!-- HEADER START --> */
+
+/* <!-- HEADER END --> */
+
+/* <!-- LANDING START --> */
+
+/* <!-- LANDING END --> */
+/* <!-- CONTENT START --> */
+/* <!-- FEATURES SECTION START --> */
+
+/* <!-- FEATURES SECTION END --> */
+/* <!-- QUALITY WORK SECTION START --> */
+
+/* <!-- QUALITY WORK SECTION END --> */
+/* <!-- STEPS SECTION START --> */
+
+/* <!-- STEPS SECTION END --> */
+/* <!-- VALUES SECTION START --> */
+
+/* <!-- VALUES SECTION END --> */
+/* <!-- PRCING SECTION START --> */
+
+/* <!-- PRICING SECTION END --> */
+/* <!-- TESTIMONIALS SECTION START --> */
+
+/* <!-- TESTIMONIALS SECTION END --> */
+/* <!-- CONTENT END --> */
+
+/* <!-- FOOTER START --> */
+/* <!-- GET STARTED/SIGN UP START --> */
+
+/* <!-- GET STARTED/SIGN UP END --> */
+/* <!-- SITE FOOTER START --> */
+
+/* <!-- SITE FOOTER END --> */
+/* <!-- FOOTER END --> */
