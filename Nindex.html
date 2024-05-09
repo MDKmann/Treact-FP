@@ -16,20 +16,110 @@
     <header>
         <nav>
             <div class="nav__container container">
-                <div class="nav__row row"></div>
+                <div class="nav__row row">
+                    <!-- LEFT END CLICKABLE NAV LOGO START -->
+                    <div class="nav__logo--wrapper">
+                        <a
+                        href="/"
+                        class="nav__logo"
+                        >
+                        <img
+                            src="./assets/headerTlogoasset.svg"
+                            alt="header logo"
+                        />
+                        Treact
+                    </div>
+                    <!-- LEFT END CLICKABLE NAV LOGO END -->
+                    <!-- FULL-SIZE NAV MENU LINKS START -->
+                    <div class="nav__links--container">
+                        <!-- FULL-SIZE NAV MENU PAGE LINKS START -->
+                        <ul class="nav__links--list-page">
+                            <li class="nav__link">
+                                <a href="https://treact.owaiskhan.me/#" class="nav__link--anchor link-page">About</a>
+                            </li>
+                            <li class="nav__link">
+                                <a href="https://treact.owaiskhan.me/#" class="nav__link--anchor link-page">Blog</a>
+                            </li>
+                            <li class="nav__link">
+                                <a href="https://treact.owaiskhan.me/#" class="nav__link--anchor link-page">Pricing</a>
+                            </li>
+                            <li class="nav__link">
+                                <a href="https://treact.owaiskhan.me/#" class="nav__link--anchor link-page">Contact Us</a>
+                            </li>
+                        </ul>
+                        <!-- FULL-SIZE NAV MENU PAGE LINKS END -->
+                        <!-- FULL-SIZE NAV MENU USER LINKS START -->
+                        <ul class="nav__links--list-user">
+                            <li class="nav__link">
+                                <a href="https://treact.owaiskhan.me/#" class="nav__link--anchor link-user">Login</a>
+                            </li>
+                            <li class="nav__link">
+                                <a href="https://treact.owaiskhan.me/#" class="nav__link--anchor-primary link-user">Sign Up</a>
+                            </li>
+                        </ul>
+                        <!-- FULL-SIZE NAV MENU USER LINKS END -->
+                    </div>
+                    <!-- FULL-SIZE NAV MENU LINKS END -->
+                    <!-- RIGHT END MOBILE NAV MENU START -->
+                    <div class="mobile__nav--container">
+                        <!-- MOBILE NAV BURGER BUTTON MENU START -->
+                        <button class="btn__menu" onclick="openMenu()">
+                            <svg src="./assets/burgermenuiconasset.svg" class="burgermenu"></svg>
+                        </button>
+                        <!-- MOBILE NAV BURGER BUTTON MENU END -->
+                        <!-- MOBILE NAV BACKDROP MENU START -->
+                        <div class="menu__backdrop">
+                            <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                                <i class="fas fa-times"></i>
+                            </button>
+                            <div class="mobile-nav__links--container">
+                                <ul class="mobile-nav__links">
+                                    <!-- MOBILE NAV MENU PAGE LINKS START -->
+                                    <ul class="nav__links--list-page">
+                                        <li class="nav__link">
+                                            <a href="https://treact.owaiskhan.me/#" class="nav__link--anchor link-page">About</a>
+                                        </li>
+                                        <li class="nav__link">
+                                            <a href="https://treact.owaiskhan.me/#" class="nav__link--anchor link-page">Blog</a>
+                                        </li>
+                                        <li class="nav__link">
+                                            <a href="https://treact.owaiskhan.me/#" class="nav__link--anchor link-page">Pricing</a>
+                                        </li>
+                                        <li class="nav__link">
+                                            <a href="https://treact.owaiskhan.me/#" class="nav__link--anchor link-page">Contact Us</a>
+                                        </li>
+                                    </ul>
+                                    <!-- MOBILE NAV MENU PAGE LINKS END -->
+                                    <!-- MOBILE NAV MENU USER LINKS START -->
+                                    <ul class="nav__links--list-user">
+                                        <li class="nav__link">
+                                            <a href="https://treact.owaiskhan.me/#" class="nav__link--anchor link-user">Login</a>
+                                        </li>
+                                        <li class="nav__link">
+                                            <a href="https://treact.owaiskhan.me/#" class="nav__link--anchor-primary link-user">Sign Up</a>
+                                        </li>
+                                    </ul>
+                                    <!-- MOBILE NAV MENU USER LINKS END -->
+                                </div>
+                            </div>
+                            <!-- MOBILE NAV BACKDROP MENU END -->
+                        </div>
+                    </div>
+                    <!-- RIGHT END MOBILE NAV MENU END -->
+                </div>
             </div>
         </nav>
     </header>
     <!-- HEADER END -->
     
     <main>
-        <!-- LANDING START -->
-        <section id="landing">
-            <div class="landing__container container">
-                <div class="landing__row row"></div>
+        <!-- HERO START -->
+        <section id="hero">
+            <div class="hero__container container">
+                <div class="hero__row row"></div>
             </div>
         </section>
-        <!-- LANDING END -->
+        <!-- HERO END -->
         <!-- CONTENT START -->
         <!-- FEATURES SECTION START -->
         <section id="features">
