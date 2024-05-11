@@ -348,8 +348,9 @@ button, input, optgroup, select, textarea {
 
 .btn__menu--close {
   position: absolute;
-  right: 26px;
-  top: 32px;
+  right: 0;
+  top: 0;
+  margin: 1rem .55rem 0 0;
   padding: 8px;
   color: #242424;
 }
