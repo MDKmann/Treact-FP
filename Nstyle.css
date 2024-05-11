@@ -24,11 +24,21 @@ li {
 a {
   color: #1a202c;
   text-decoration: none;
-}
-body {
-  vertical-align: auto;
+  background-image: linear-gradient(#6415ff, #6415ff);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 0%;
+  background-repeat: no-repeat;
+  transition: all 0.2s ease-in-out
 }
 
+/* <!-- ANCHOR HIGHTLIGHT ON HOVER WITH UNDERLINE --> */
+a:hover,
+a:focus,
+a:active {
+  color: #6415ff;
+  background-size: 100% 0.1em;
+}
 
 
 /* html {
@@ -267,6 +277,14 @@ button, input, optgroup, select, textarea {
   color: #243e63;
 }
 
+/* <!--NAV LOGO ANCHOR HIGHTLIGHT ON HOVER W/O UNDERLINE --> */
+.nav__logo-a:hover,
+.nav__logo-a:focus,
+.nav__logo-a:active {
+  color: #6415ff;
+  background: none;
+}
+
 .nav__logo {
   margin-right: .75rem;
   width: 2.5rem;
@@ -299,18 +317,27 @@ button, input, optgroup, select, textarea {
   color: rgba(26, 32, 44, 1);
   display: none;
   padding: 0;
+  transition: all 300ms ease;
 }
 
+/* <!-- BTN MENU HIGHTLIGHT ON HOVER W/O UNDERLINE --> */
+.btn__menu:hover,
+.btn__menu:focus,
+.btn__menu:active {
+  color: #6415ff;
+}
+
+/* <!-- ALLOWS MENU BACKDROP TO STICK TO HEADER --> */
 .nav__container {
   background-color: #fff;
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   left: 0;
   right: 0;
 }
 
 
-
+/* <!-- ALLOWS MENU BACKDROP TO CENTER AND SHOW WHEN BURGER CLICK --> */
 .menu__backdrop {
   position: absolute;
   background-color: #fff;
@@ -361,22 +388,8 @@ button, input, optgroup, select, textarea {
   color: #242424;
 }
 
+/* <!-- MENU BACKDROP ANIMATION --> */
 @keyframes slide-in {
-  /* 100% {
-    transfrom: translateX(-100%)
-  }
-
-  30% {
-    transform: translateX(120%);
-  }
-
-  15% {
-    transform: translateX(80%);
-  }
-
-  0% {
-    transform: translateX(100%);
-  } */
 
   0% {
     transform: translateX(100%);
@@ -464,7 +477,17 @@ button, input, optgroup, select, textarea {
     color: white;
     border-radius: 35px;
     padding: .75rem 2rem;
+    transition: ease 300ms all;
   }
+
+.nav__link--anchor-primary:hover,
+.nav__link--anchor-primary:focus,
+.nav__link--anchor-primary:active {
+    background-color: #3c0d99;
+    color: white;
+    text-decoration: none;
+  }
+
 
   .nav__links--list-page {
     width: 100%;
