@@ -8,6 +8,25 @@
   margin: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: #1a202c;
+  text-decoration: none;
+}
+
+
 
 /* html {
   line-height: 1.5;
@@ -230,6 +249,112 @@ button, input, optgroup, select, textarea {
 
 /* <!-- HEADER START --> */
 
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.nav__logo-a {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #243e63;
+}
+
+.nav__logo {
+  margin-right: .75rem;
+  width: 2.5rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+
+
+
+
+.mobile-nav__links--container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-nav__links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.btn__menu {
+  background-color: transparent;
+  height: 1.5rem;
+  width: 1.5rem;
+  font-size: 1.25rem;
+  text-align: center;
+  border: none;
+  color: rgba(26, 32, 44, 1);
+  display: none;
+  padding: 0;
+}
+
+
+.menu__backdrop {
+  position: fixed;
+  background-color: #fff;
+  border: rgb(226, 232, 240) solid;
+  border-radius: 0.5rem;
+  border-width: 1px;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  margin: 1.5rem 1.5rem;
+  padding: 2rem;
+  display: flex;
+  text-align: center;
+  transition: all 300ms ease;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.menu--open .menu__backdrop {
+  visibility: visible;
+  opacity: 1;
+}
+
+.menu--open {
+  width: 100%;
+ 
+}
+
+.menu__links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu__list {
+  padding: 32px 0;
+}
+
+.menu__link {
+  font-size: 18px;
+  
+}
+
+.btn__menu--close {
+  position: absolute;
+  right: 26px;
+  top: 32px;
+  padding: 8px;
+  color: #242424;
+}
+
+
 /* <!-- HEADER END --> */
 
 /* <!-- HERO START --> */
@@ -264,3 +389,48 @@ button, input, optgroup, select, textarea {
 
 /* <!-- SITE FOOTER END --> */
 /* <!-- FOOTER END --> */
+
+/* <!-- SITE MEDIA QUERIES START --> */
+
+@media (max-width: 1024px) {
+  .btn__menu {
+    display: block;
+  }
+
+  .nav__links--container {
+    display: none;
+  }
+
+  .mobile-nav__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-bottom-width: 2px;
+    padding-bottom: 0.25rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    letter-spacing: 0.025em;
+  }
+
+  .nav__link--anchor-primary {
+    margin-right: 8px;
+    background-color: #6415ff;
+    color: white;
+    border-radius: 35px;
+    padding: .75rem 2rem;
+  }
+
+  .nav__links--list-page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+}
+
+/* <!-- SITE MEDIA QUERIES START --> */
+
