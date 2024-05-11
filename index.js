@@ -9,10 +9,17 @@ function dropFunction() {
   }
 }
 
+// function openMenu() {
+//     document.body.classList += " menu--open"
+// }
+
+// function closeMenu() {
+//     document.body.classList.remove( 'menu--open')
+// }
 function openMenu() {
-    document.body.classList += " menu--open"
+  document.querySelector('.mobile__nav--container').classList += " menu--open"
 }
 
 function closeMenu() {
-    document.body.classList.remove( 'menu--open')
+  document.querySelector('.mobile__nav--container').classList.remove( 'menu--open')
 }
