@@ -40,6 +40,9 @@ a:active {
   background-size: 100% 0.1em;
 }
 
+.purple {
+  color: #6415ff;
+}
 
 /* html {
   line-height: 1.5;
@@ -70,6 +73,25 @@ a:active {
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
+}
+
+/* <!-- P LMNTS W/1REM --> */
+.p1 {
+  font-size: 1rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+
+/* <!-- P LMNTS W/.875REM --> */
+p {
+  font-size: .875rem;
+}
+
+h1{
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 1.25;
 }
 
 /* 
@@ -140,13 +162,6 @@ ol, ul, menu {
 }
 
 
-.ieuenV h1{
-    font-size: 1.875rem;
-    font-weight: 700;
-    line-height: 1.25;
-    --tw-text-opacity: 1;
-    color: rgb(26 32 44 / var(--tw-text-opacity));
-}
 h2 {
     display: block;
     font-size: 1.5em;
@@ -257,7 +272,7 @@ button, input, optgroup, select, textarea {
     padding: 0px;
 }
 
-*/
+ */
 /* <!-- END SITE WIDE DEFAULT FORMATTING --> */
 
 /* <!-- HEADER START --> */
@@ -325,6 +340,7 @@ button, input, optgroup, select, textarea {
 .btn__menu:focus,
 .btn__menu:active {
   color: #6415ff;
+  cursor: pointer;
 }
 
 /* <!-- ALLOWS MENU BACKDROP TO STICK TO HEADER --> */
@@ -415,6 +431,24 @@ button, input, optgroup, select, textarea {
 /* <!-- HEADER END --> */
 
 /* <!-- HERO START --> */
+.hero__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__leftcolumn--container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 32rem;
+  text-align: center;
+}
+
+.hero__input {
+  
+}
+
 
 /* <!-- HERO END --> */
 /* <!-- CONTENT START --> */
