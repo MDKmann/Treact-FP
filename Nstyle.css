@@ -106,12 +106,35 @@ a:active {
 /* <!-- P LMNTS W/.875REM --> */
 p {
   font-size: .875rem;
+  font-weight: 500;
+  line-height: 1.625;
+  color: #7c8ba1;
 }
 
 h1{
   font-size: 1.875rem;
   font-weight: 700;
   line-height: 1.25;
+}
+
+h2 {
+  font-size: 2.25rem;
+  font-weight: 900;
+  letter-spacing: 0.025em;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.025rem;
+}
+
+h5 {
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 
 /* 
@@ -477,6 +500,10 @@ button, input, optgroup, select, textarea {
 }
 
 /* <!-- HERO INPUT BOX  --> */
+#hero {
+  padding-bottom: 3rem;
+}
+
 .hero__input {
   font-size: 100%;
   font-weight: 500;
@@ -529,9 +556,78 @@ button, input, optgroup, select, textarea {
 /* <!-- CONTENT START --> */
 /* <!-- FEATURES SECTION START --> */
 
+#features {
+  padding: 3rem 0;
+}
+
 .features__container {
   text-align: center;
 }
+
+.section__description--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom:  2.5rem;
+}
+
+.section__subheading {
+  padding: 1.675rem 0 1rem;
+  width: fit-content;
+}
+
+.section__heading {
+  margin: 1.875rem 0;
+}
+
+.section__description {
+  margin: 1rem 0 .875rem
+}
+
+
+/* <!-- FEATURES COLUMNS SECTION --> */
+
+.feature__columns--container,
+.feature__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* <!-- INDIV FEATURE SECTION --> */
+
+.feature__container {
+  padding: 2rem .5rem;
+  margin: 0 1rem;
+  gap: 1rem;
+  height: 100%;
+  max-width: 24rem;
+}
+
+.feature__img--wrapper {
+  padding: 1.25rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 9999px;
+
+}
+
+.feature__img {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+
+.feature__text--p {
+  margin-top: 0.25rem;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2;
+  color: #7c8ba1;
+}
+
+
 
 /* <!-- FEATURES SECTION END --> */
 /* <!-- QUALITY WORK SECTION START --> */
