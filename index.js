@@ -11,8 +11,8 @@ function dropFunction() {
 
 /* <!-- OPENS MENU ON CLICK AND ADDS POSITION FIXED - REMOVES ON CLICK AFTER --> */
 function openMenu() {
-  document.querySelector('.mobile__nav--container').classList.add("menu--open");
   document.querySelector('.nav__container').style.position = "fixed";
+  document.querySelector('.mobile__nav--container').classList.add("menu--open");
 }
 
 function closeMenu() {

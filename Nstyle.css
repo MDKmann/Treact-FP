@@ -365,7 +365,7 @@ button, input, optgroup, select, textarea {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+  width: 100%;
 }
 
 .nav__logo-a {
@@ -694,6 +694,9 @@ button, input, optgroup, select, textarea {
   margin: 0 1rem;
   gap: 1rem;
   height: 100%;
+}
+
+.feature__columns--container {
   max-width: 24rem;
 }
 
@@ -1040,6 +1043,8 @@ button, input, optgroup, select, textarea {
 
 /* <!-- PERSONAL TESTIMONIALS SECTION --> */
 .testimonial__container {
+  max-width: 448px;
+  margin-top: 1.5rem;
   text-align: center;
 }
 
@@ -1302,7 +1307,7 @@ button, input, optgroup, select, textarea {
 @media (min-width: 640px) {
   .feature__container {
     flex-direction: row;
-    width: 50%;
+    text-align: left;
     align-items: flex-start
   }
   .feature__text--container {
@@ -1316,8 +1321,47 @@ button, input, optgroup, select, textarea {
   .features__heading {
     font-size: 3rem;
   }
+  .plan__btn--container {
+    padding: 1rem 4rem;
+  }
+  .testimonial__p {
+    margin-bottom: 2.5rem;
+  }
+  .testimonial__footer {
+    flex-direction: row;
+  }
+ .testimonial__person--wrapper {
+  width: 5rem;
+  height: 5rem;
+ }
+ .testimonial__btns--container {
+  width: fit-content;
+  margin-top: 0;
+ }
 
+ .get-started__background--container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ }
 
+ .get-started__heading {
+  font-size: 1.875rem
+ }
+
+ .get-started__btns--container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+ }
+
+ .get-started__btn {
+  margin: 0;
+ }
 }
 
 
