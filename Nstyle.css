@@ -1088,7 +1088,7 @@ button, input, optgroup, select, textarea {
   align-items: center;
 }
 
-.testimonial__person--wrapper {
+.testimonial__headshot--wrapper {
   height: 4rem;
   width: 4rem;
 }
@@ -1119,7 +1119,7 @@ button, input, optgroup, select, textarea {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: fit-content;
 }
 
 .testimonial__btn {
@@ -1301,6 +1301,10 @@ button, input, optgroup, select, textarea {
 
 /* <!-- SITE MEDIA QUERIES START --> */
 @media (min-width: 640px) {
+  h2 {
+    font-size: 2.25rem;
+  }
+  
   .feature__container {
     flex-direction: row;
     text-align: left;
@@ -1317,6 +1321,15 @@ button, input, optgroup, select, textarea {
   .features__heading {
     font-size: 3rem;
   }
+
+  .pricing__description--container {
+    max-width: 36rem;
+  }
+
+  .pricing__heading {
+    font-size: 3rem;
+  }
+  
   .plan__btn--container {
     padding: 1rem 4rem;
   }
@@ -1326,12 +1339,15 @@ button, input, optgroup, select, textarea {
   .testimonial__footer {
     flex-direction: row;
   }
- .testimonial__person--wrapper {
-  width: 5rem;
-  height: 5rem;
+  .testimonial__headshot--wrapper {
+    width: 5rem;
+    height: 5rem;
+  }
+
+ .testimonial__person--container{
+  margin-left: 1.5rem;
  }
  .testimonial__btns--container {
-  width: fit-content;
   margin-top: 0;
  }
 
@@ -1362,6 +1378,20 @@ button, input, optgroup, select, textarea {
 
 
 @media (min-width: 768px) {
+  p {
+    font-size: 1rem;
+  }
+  
+  .section__description--container {
+    text-align: left;
+    align-items: start;
+  }
+
+
+  .hero__container {
+    padding-top: 4rem;
+  }
+  
   .feature__columns--container,
   .row {
     flex-direction: row;
@@ -1371,10 +1401,111 @@ button, input, optgroup, select, textarea {
     flex-direction: column;
   }
 
+.section__container--features {
+  text-align: center;
+  align-items: center;
+}
+
   .feature__columns--container {
+    max-width: none;
     flex-wrap: wrap;
-    text-align: left;
   }
+  .feature__container {
+    width: 50%;
+    margin: 0;
+  }
+
+  .quality-work__row,
+  .values__row {
+    flex-direction: row-reverse;
+    gap: 3rem;
+  }
+
+  .quality-work__row,
+  .steps__row {
+    gap: 3rem;
+  }
+
+  .list__item--container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .list__item--text {
+    margin-top: 0px;
+    margin-left: 1.5rem;
+  }
+
+  .values__principle--header {
+    justify-content: start;
+  }
+
+  .pricing__row {
+    flex-direction: column;
+  }
+.pricing__description--container {
+  text-align: center;
+  align-items: center;
+}
+
+.testimonials__img--wrapper {
+  width: 41.6667%;
+}
+
+.testimonials__container {
+  padding-top: 0;
+}
+
+.testimonials__content--container {
+  width: 58.3333%;
+  padding-left: 3rem;
+  margin-top: 0px;
+}
+
+.testimonial__container {
+  text-align: start;
+  align-items: start;
+}
+
+.testimonial__rating--wrapper {
+  justify-content: left;
+}
+
+
+.testimonial__person--container {
+  display: block;
+  text-align: left;
+  margin-top: 0;
+}
+
+.testimonial__name {
+  line-height: 1.25;
+}
+
+.testimonial__company {
+  line-height: 1.5;
+}
+
+.testimonial__btns--container {
+  width: 100%;
+}
+
+.footer__row {
+  display: block;
+  text-align: left;
+}
+
+.footer__links--container {
+  justify-content: space-between;
+}
+
+.footer__company-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
 
 @media (640px <= width <= 1024px) {
  .nav__row,
@@ -1399,6 +1530,7 @@ button, input, optgroup, select, textarea {
     right: 0px;
     top: 0px;
     bottom: 0px;
+    padding: 0;
     margin-top: 0.5rem;
     margin-right: 0.5rem;
     margin-bottom: 0.5rem;
