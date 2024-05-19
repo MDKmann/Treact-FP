@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <!-- BROWSER TITLE ICON -->
+    <link rel="icon" href="./assets/headerTlogoasset.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Modern React Templates &amp; Components for building landing pages and UIs - Treact</title>
+    <link rel="stylesheet" href="./Nstyle.css">
+    <!-- FONT AWESOME ICONS -->
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+    <!-- HEADER START -->
+    <header>
+        <nav>
+            <div class="nav__row row">
+                <div class="nav__container container">
+                    <!-- LEFT END CLICKABLE NAV LOGO START -->
+                    <div class="nav__logo--wrapper">
+                        <a href="/"class="nav__logo-a">
+                        <img src="./assets/headerTlogoasset.svg" alt="header logo"class="nav__logo"
+                        />
+                        Treact
+                        </a>
+                    </div>
+                    <!-- LEFT END CLICKABLE NAV LOGO END -->
+                    <!-- FULL-SIZE NAV MENU LINKS START -->
+                    <div class="nav__links--container">
+                        <!-- FULL-SIZE NAV MENU PAGE LINKS START -->
+                        <ul class="nav__links--list-page">
+                            <li class="nav__link">
+                                <a href="https://treact.owaiskhan.me/#" class="nav__link--anchor link-page">
+                                    About
+                                </a>
+                            </li>
+                            <li class="nav__link">
+                                <a href="https://treact.owaiskhan.me/#" class="nav__link--anchor link-page">
+                                    Blog
+                                </a>
+                            </li>
+                            <li class="nav__link">
+                                <a href="https://treact.owaiskhan.me/#" class="nav__link--anchor link-page">
+                                    Pricing
+                                </a>
+                            </li>
+                            <li class="nav__link">
+                                <a href="https://treact.owaiskhan.me/#" class="nav__link--anchor link-page">
+                                    Contact Us
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- FULL-SIZE NAV MENU PAGE LINKS END -->
+                        <!-- FULL-SIZE NAV MENU USER LINKS START -->
+                        <ul class="nav__links--list-user">
+                            <li class="nav__link--login">
+                                <a href="https://treact.owaiskhan.me/#" class="nav__link--anchor link-user">
+                                    Login
+                                </a>
+                            </li>
+                            <li class="nav__link--sign-up">
+                                <a href="https://treact.owaiskhan.me/#" class="nav__link--anchor-primary link-user">
+                                    Sign Up
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- FULL-SIZE NAV MENU USER LINKS END -->
+                    </div>
+                    <!-- FULL-SIZE NAV MENU LINKS END -->
+                    <!-- RIGHT END MOBILE NAV MENU START -->
+                    <div class="mobile__nav--container">
+                        <!-- MOBILE NAV BURGER BUTTON MENU START -->
+                        <button class="btn__menu" onclick="openMenu()">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                        <!-- MOBILE NAV BURGER BUTTON MENU END -->
+                        <!-- MOBILE NAV BACKDROP MENU START -->
+                        <div class="menu__backdrop">
+                            <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                                <i class="fas fa-times"></i>
+                            </button>
+                            <div class="mobile-nav__links--container">
+                                <ul class="mobile-nav__links">
+                                    <!-- MOBILE NAV MENU PAGE LINKS START -->
+                                    <ul class="nav__links--list-page">
+                                        <li class="mobile-nav__link">
+                                            <a href="https://treact.owaiskhan.me/#" class="nav__link--anchor link-page">
+                                                About
+                                            </a>
+                                        </li>
+                                        <li class="mobile-nav__link">
+                                            <a href="https://treact.owaiskhan.me/#" class="nav__link--anchor link-page">
+                                                Blog
+                                            </a>
+                                        </li>
+                                        <li class="mobile-nav__link">
+                                            <a href="https://treact.owaiskhan.me/#" class="nav__link--anchor link-page">
+                                                Pricing
+                                            </a>
+                                        </li>
+                                        <li class="mobile-nav__link">
+                                            <a href="https://treact.owaiskhan.me/#" class="nav__link--anchor link-page">
+                                                Contact Us
+                                            </a>
+                                        </li>
+                                    <!-- MOBILE NAV MENU PAGE LINKS END -->
+                                    <!-- MOBILE NAV MENU USER LINKS START -->
+                                        <li class="mobile-nav__link">
+                                            <a href="https://treact.owaiskhan.me/#" class="nav__link--anchor link-user">
+                                                Login
+                                            </a>
+                                        </li>
+                                        <li class="mobile-nav__link">
+                                            <a href="https://treact.owaiskhan.me/#" class="nav__link--anchor-primary link-user">
+                                                Sign Up
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <!-- MOBILE NAV MENU USER LINKS END -->
+                                </ul>
+                            </div>
+                            <!-- MOBILE NAV BACKDROP MENU END -->
+                        </div>
+                        <!-- RIGHT END MOBILE NAV MENU END -->
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- HEADER END -->
+    
+    <main>
+        <!-- HERO START -->
+        <section id="hero">
+            <div class="hero__container container">
+                <div class="hero__row row">
+                    <!-- HERO LEFT COLUMN START -->
+                    <div class="hero__leftcolumn--container">
+                        <!-- HERO LEFT COLUMN DESCRIPTION START -->
+                        <div class="hero__description--container">
+                            <h1 class="primary__heading--text">Beautiful React Templates 
+                                <span class="purple">for you.</span>
+                            </h1>
+                            <p class="hero__description--p p1">
+                                Our templates are easy to setup, understand and customize.
+                                Fully modular components with a variety of pages and components.
+                            </p>
+                            <!-- HERO LEFT COLUMN DESCRIPTION END -->
+                            <!-- HERO LEFT COLUMN BTN START -->
+                            <div class="hero__input--wrapper">
+                                <input type="email" placeholder="Your E-mail Address" class="hero__input">
+                                <button class="hero__input--btn">Get Started</button>
+                            </div>
+                            <!-- HERO LEFT COLUMN BTN END -->
+                            <!-- HERO LEFT COLUMN OUR CUSTOMERS START -->
+                            <div class="hero__customers--container">
+                                <p class="hero__description--subheading">
+                                    OUR TRUSTED CUSTOMERS
+                                </p>
+                                <figure class="hero__description--img-wrapper">
+                                    <img src="./assets/companieslogoasset.png" alt="Our Customers" class="hero__description--img">
+                                </figure>
+                            </div>
+                            <!-- HERO LEFT COLUMN OUR CUSTOMERS END -->
+                        </div>  
+                    </div>
+                    <!-- HERO LEFT COLUMN END -->
+                    <!-- HERO RIGHT COLUMN START -->
+                    <div class="hero__rightcolumn--container">
+                        <figure class="hero__rightcolumn--img-wrapper">
+                            <img src="./assets/heroimgasset.svg" 
+                            alt="illustration" class="hero__rightcolumn--img">
+                        </figure>
+                    </div>
+                    <!-- HERO RIGHT COLUMN END -->
+                </div>
+            </div>
+        </section>
+        <!-- HERO END -->
+        <!-- CONTENT START -->
+        <!-- FEATURES SECTION START -->
+        <section id="features">
+            <div class="features__container container">
+                <div class="features__row row">
+                    <!-- FEATURES SECTION START -->
+                    <div class="section__description--container section__container--features">
+                        <h5 class="section__subheading features__subheading purple">FEATURES</h5>
+                        <h2 class="section__heading features__heading">We have Amazing <span class="purple">Service.</span></h2>
+                        <p class="section__description fea-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <!-- FEATURES SECTION START --> 
+                    <div class="feature__columns--container">
+                        <!-- SECURE FEATURE START -->
+                        <div class="feature__container">
+                            <figure class="feature__img--wrapper">
+                                <img src="./assets/featuresasset1.svg" alt="feature secure icon" class="feature__img">
+                            </figure>
+                            <div class="feature__text--container">
+                                <h4 class="feature__text--title">Secure</h4>
+                                <p class="feature__text--p">We strictly only deal with vendors that provide top notch security.</p>
+                            </div>
+                        </div>
+                        <!-- SECURE FEATURE END -->
+                        <!-- SUPPORT FEATURE START -->
+                        <div class="feature__container">
+                            <figure class="feature__img--wrapper">
+                                <img src="./assets/featuresasset2.svg" alt="feature support icon" class="feature__img">
+                            </figure>
+                            <div class="feature__text--container">
+                                <h4 class="feature__text--title">24/7 Support</h4>
+                                <p class="feature__text--p">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
+                            </div>
+                        </div>
+                        <!-- SUPPORT FEATURE END -->
+                        <!-- CUSTOMIZABLE FEATURE START -->
+                        <div class="feature__container">
+                            <figure class="feature__img--wrapper">
+                                <img src="./assets/featuresasset3.svg" alt="feature customizable icon" class="feature__img">
+                            </figure>
+                            <div class="feature__text--container">
+                                <h4 class="feature__text--title">Customizable</h4>
+                                <p class="feature__text--p">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
+                            </div>
+                        </div>
+                        <!-- CUSTOMIZABLE FEATURE END -->
+                        <!--RELIABLE FEATURE START -->
+                        <div class="feature__container">
+                            <figure class="feature__img--wrapper">
+                                <img src="./assets/featuresasset4.svg" alt="feature reliable icon" class="feature__img">
+                            </figure>
+                            <div class="feature__text--container">
+                                <h4 class="feature__text--title">Reliable</h4>
+                                <p class="feature__text--p">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
+                            </div>
+                        </div>
+                        <!--RELIABLE FEATURE START -->
+                        <!-- FAST FEATURE START -->
+                        <div class="feature__container">
+                            <figure class="feature__img--wrapper">
+                                <img src="./assets/featuresasset5.svg" alt="feature fast icon" class="feature__img">
+                            </figure>
+                            <div class="feature__text--container">
+                                <h4 class="feature__text--title">Fast</h4>
+                                <p class="feature__text--p">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
+                            </div>
+                        </div>
+                        <!-- FAST FEATURE END -->
+                        <!-- EASY FEATURE START -->
+                        <div class="feature__container">
+                            <figure class="feature__img--wrapper">
+                                <img src="./assets/featuresasset6.svg" alt="feature easy icon" class="feature__img">
+                            </figure>
+                            <div class="feature__text--container">
+                                <h4 class="feature__text--title">Easy</h4>
+                                <p class="feature__text--p">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
+                            </div>
+                        </div>
+                        <!-- EASY FEATURE END -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FEATURES SECTION END -->
+        <!-- QUALITY WORK SECTION START -->
+        <section id="quality-work">
+            <div class="quality-work__container container">
+                <div class="quality-work__row row">
+                    <!-- QUALITY WORK IMAGE SECTION START -->
+                    <figure class="quality-work__img--wrapper">
+                        <img src="./assets/qualityworkimgasset.png" alt="quality-work illustration" class="quality-work__img">
+                    </figure>
+                    <!-- QUALITY WORK IMAGE SECTION END -->
+                    <!-- QUALITY WORK DESCRIPTION SECTION START -->
+                    <div class="section__description--container">
+                        <h5 class="section__subheading purple">QUALITY WORK</h5>
+                        <h2 class="section__heading quality-work__heading">Designed & Developed by <span class="purple">Professionals.</span></h2>
+                        <p class="section__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <button class="quality-work__description--button">
+                            <a href="https://timerse.com/" class="a__btn">Learn More</a>
+                        </button>      
+                    </div>
+                    <!-- QUALITY WORK DESCRIPTION SECTION END -->
+                </div>
+            </div>
+        </section>
+        <!-- QUALITY WORK SECTION END -->
+        <!-- STEPS SECTION START -->
+        <section id="steps">
+            <div class="steps__container container">
+                <div class="steps__row row">
+                    <!-- STEPS IMAGE SECTION START -->
+                    <figure class="steps__img--wrapper">
+                        <img
+                          src="./assets/stepsimgasset.png"
+                          alt="steps illustration img"
+                          class="steps__img"
+                        />
+                    </figure>
+                    <!-- STEPS IMAGE SECTION END -->
+                    <!-- STEPS TEXT SECTION START -->
+                    <div class="section__description--container">
+                        <!-- STEPS HEADINGS SECTION START -->
+                        <h5 class="section__subheading purple">STEPS</h5>
+                        <h2 class="section__heading">
+                          Easy to <span class="purple">Get Started.</span>
+                        </h2>
+                        <!-- STEPS HEADINGS SECTION END -->
+                        <!-- STEPS LIST SECTION START -->
+                        <div class="steps__list--container">
+                            <!-- STEPS LIST ITEM 1 SECTION START -->
+                            <div class="list__item--container">
+                                <h3 class="list__item--number">01</h3>
+                                <div class="list__item--text">
+                                    <h6 class="list__item--title">Register</h6>
+                                    <p class="list__item--p">
+                                        Create an account with us using Google or Facebook.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- STEPS LIST ITEM 1 SECTION END -->
+                            <!-- STEPS LIST ITEM 2 SECTION START -->
+                            <div class="list__item--container">
+                                <h3 class="list__item--number">02</h3>
+                                <div class="list__item--text">
+                                    <h6 class="list__item--title">Download</h6>
+                                    <p class="list__item--p">
+                                        Browse and Download the template that you like from the
+                                        marketplace.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- STEPS LIST ITEM 2 SECTION END -->
+                            <!-- STEPS LIST ITEM 3 SECTION START -->
+                            <div class="list__item--container">
+                                <h3 class="list__item--number">03</h3>
+                                <div class="list__item--text">
+                                    <h6 class="list__item--title">Run</h6>
+                                    <p class="list__item--p">
+                                        Follow the instructions to setup and customize the
+                                        template to your needs.
+                                    </p>
+                                </div>
+                            </div>
+                        <!-- STEPS LIST SECTION END -->
+                        </div>
+                    </div>
+                    <!-- STEPS TEXT SECTION END -->
+                </div>
+            </div>
+        </section>
+        <!-- STEPS SECTION END -->
+        <!-- VALUES SECTION START -->
+        <section id="values">
+            <div class="values__container container">
+                <div class="values__row row">
+                    <!-- VALUES IMAGE SECTION START -->
+                    <figure class="values__img--wrapper">
+                        <img src="./assets/principlesimgasset.svg" alt="values illustration img" class="values__img">
+                    </figure>
+                    <!-- VALUES IMAGE SECTION END -->
+                    <!-- VALUES DESCRIPTION SECTION START -->
+                    <div class="section__description--container values__description--container">
+                        <h5 class="section__subheading purple">VALUES</h5>
+                        <h2 class="section__tagline">We Always Abide by Our <span class="purple">Principles.</span></h2>
+                        <p class="section__description values__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <!-- VALUES PRINCIPLES SECTION START -->
+                        <div class="values__principles--container">
+                            <!-- VALUES 1ST PRINCIPLES SECTION START -->
+                            <div class="values__principle">
+                                <div class="values__principle--header">
+                                    <div class="dollar-icon__wrapper">
+                                        <img src="./assets/affordableDollariconasset.svg" class="dollar-icon">
+                                    </div>
+                                    <h4 class="values__principle--title">Affordable</h4>
+                                </div>
+                                <p class="values__description--p">We promise to offer you the best rate we can - at par with the industry standard.</p>
+                            </div>
+                            <!-- VALUES 1ST PRINCIPLES SECTION END -->
+                            <!-- VALUES 2ND PRINCIPLES SECTION START -->
+                            <div class="values__principle">
+                                <div class="values__principle--header">
+                                    <div class="briefcase-icon__wrapper">
+                                        <img src="./assets/profBriefcaseiconasset.svg" class="briefcase-icon">
+                                    </div>
+                                    <h4 class="values__principle--title">Professionalism</h4>
+                                </div>
+                                <p class="values__description--p">We assure you that our templates are designed and created by professional designers.</p>
+                            </div>
+                            <!-- VALUES 2ND PRINCIPLES SECTION START -->
+                        </div>
+                        <!-- VALUES PRINCIPLES SECTION END -->
+                        <!-- VALUES BTN SECTION START -->
+                        <button class="values__description--btn">
+                            <a href="https://timerse.com/" class="a__btn">Learn More</a>
+                        </button>
+                        <!-- VALUES BTN SECTION END -->
+                    </div>
+                <!-- VALUES DESCRIPTION SECTION END -->
+                </div>
+            </div>
+        </section>
+        <!-- VALUES SECTION END -->
+        <!-- PRCING SECTION START -->
+        <section id="pricing">
+            <div class="pricing__container container">
+                <div class="pricing__row row">
+                    <!-- PRICING DESCRIPTION SECTION START -->
+                    <div class="section__description--container pricing__description--container">
+                        <h5 class="section__subheading purple">PRICING</h5>
+                        <h2 class="section__heading pricing__heading">Reasonable & Flexible <span class="purple">Plans.</span></h2>
+                        <p class="section__description pri-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <!-- PRICING DESCRIPTION SECTION END -->
+                    <!-- PRICING PLANS SECTION START -->
+                    <div class="pricing__columns--container">
+                        <!-- PRICING PERSONAL PLAN SECTION START -->
+                        <div class="plan__container">
+                            <div class="plan__pricing--container  plan__pricing--wrapper">
+                                <div class="plan__container--trim trim__grn"></div>
+                                <div class="plan__pricing--text">
+                                    <div class="plan__title top-title">PERSONAL</div>
+                                    <h1 class="plan__price">$17.99</h1>
+                                    <h5 class="plan__billing">MONTHLY</h5>
+                                </div>
+                            </div >
+                            <div class="plan__features--container  plan__wrapper">
+                                <div class="plan__title plan__text">For Individuals</div>
+                                <div class="plan__feature plan__text">
+                                    30 Templates
+                                </div>
+                                <div class="plan__feature plan__text">
+                                    7 Landing Pages
+                                </div>
+                                <div class="plan__feature plan__text">
+                                    12 Internal Pages
+                                </div>
+                                <div class="plan__feature plan__text">
+                                    Basic Assistance
+                                </div>
+                            </div>
+                            <div class="plan__btn--container  plan__wrapper">
+                                <button class="plan__btn--grad plan__btn grad__grn">
+                                    BUY NOW
+                                </button>   
+                            </div>
+                        </div>
+                        <!-- PRICING PERSONAL PLAN SECTION END -->
+                        <!-- PRICING BUSINESS PLAN SECTION START -->
+                        <div class="plan__container bus-background">
+                            <div class="plan__pricing--container plan__pricing--wrapper">
+                                <div class="plan__container--trim trim__bus"></div>
+                                <div class="plan__pricing--text">
+                                    <div class="plan__title top-title title__bus">BUSINESS</div>
+                                    <h1 class="plan__price bus-white">$37.99</h1>
+                                    <h5 class="plan__billing bus-white">MONTHLY</h5>
+                                </div>
+                            </div >
+                            <div class="plan__features--container plan__wrapper container__bus">
+                                <div class="plan__title plan__text bus-white">For Small Businesses</div>
+                                <div class="plan__feature plan__text bus-gray">
+                                    60 Templates
+                                </div>
+                                <div class="plan__feature plan__text bus-gray">
+                                    15 Landing Pages
+                                </div>
+                                <div class="plan__feature plan__text bus-gray">
+                                    22 Internal Pages
+                                </div>
+                                <div class="plan__feature plan__text bus-gray">
+                                    Priority Assistance
+                                </div>
+                            </div>
+                            <div class="plan__btn--container  plan__wrapper">
+                                <button class="plan__btn--white plan__btn">
+                                    BUY NOW
+                                </button>   
+                            </div>
+                        </div>
+                        <!-- PRICING BUSINESS PLAN SECTION END -->
+                        <!-- PRICING ENTERPRISE PLAN SECTION START -->
+                        <div class="plan__container plan__container--last">
+                            <div class="plan__pricing--container  plan__pricing--wrapper">
+                                <div class="plan__container--trim trim__red"></div>
+                                <div class="plan__pricing--text">
+                                    <div class="plan__title top-title">ENTERPRISE</div>
+                                    <h1 class="plan__price">$57.99</h1>
+                                    <h5 class="plan__billing">MONTHLY</h5>
+                                </div>
+                            </div >
+                            <div class="plan__features--container  plan__wrapper">
+                                <div class="plan__title plan__text">For Large Companies</div>
+                                <div class="plan__feature plan__text">
+                                    90 Templates
+                                </div>
+                                <div class="plan__feature plan__text">
+                                    27 Landing Pages
+                                </div>
+                                <div class="plan__feature plan__text">
+                                    37 Internal Pages
+                                </div>
+                                <div class="plan__feature plan__text">
+                                    Personal Assistance
+                                </div>
+                            </div>
+                            <div class="plan__btn--container  plan__wrapper">
+                                <button class="plan__btn--grad plan__btn grad__red">
+                                    BUY NOW
+                                </button>   
+                            </div>
+                        </div>
+                        <!-- PRICING ENTERPRISE PLAN SECTION START -->
+                    </div>
+                    <!-- PRICING PLANS SECTION END -->
+                </div>
+            </div>
+        </section>
+        <!-- PRICING SECTION END -->
+        <!-- TESTIMONIALS SECTION START -->
+        <section id="testimonials">
+            <div class="testimonials__container container">
+                <div class="testimonials__row row">
+                    <div class="testimonials__row row">
+                        <!-- TESTIMONIALS IMG SECTION START -->
+                        <figure class="testimonials__img--wrapper">
+                            <img src="./assets/testimonialsimgasset.svg" alt="testimonial illustration img" class="testimonials__img">
+                        </figure>
+                        <!-- TESTIMONIALS IMG SECTION END -->
+                        <!-- TESTIMONIALS CONTENT SECTION START -->
+                        <div class="testimonials__content--container">
+                            <!-- TESTIMONIALS DESCRIPTION SECTION START -->
+                            <div class="section__description--container testimonials__description--container">
+                                <h5 class="section__subheading purple">TESTIMONIALS</h5>
+                                <h2 class="section__heading">
+                                    Our Clients <span class="purple">Love Us.</span>
+                                </h2>
+                                <p class="section__description testimonials__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam.</p>
+                            </div>
+                            <!-- TESTIMONIALS DESCRIPTION SECTION END -->
+                            <!-- TESTIMONIALS (ADAM) PERSONAL TESTIMONIAL SECTION START -->
+                            <div class="testimonial__container">
+                                <!-- TESTIMONIALS PERSONAL TESTIMONIAL HEADER SECTION START -->
+                                <div class="testimonial__rating--wrapper">
+                                    <img src="./assets/stariconasset.svg" class="icon__star">
+                                    <img src="./assets/stariconasset.svg" class="icon__star">
+                                    <img src="./assets/stariconasset.svg" class="icon__star">
+                                    <img src="./assets/stariconasset.svg" class="icon__star">
+                                    <img src="./assets/stariconasset.svg" class="icon__star">
+                                </div>
+                                <h4 class="testimonial__subheading">
+                                    Love the Developer Expereice and Design Principles !
+                                </h4>
+                                <div class="testimonial__p">
+                                    Sinor Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                                </div>
+                                <!-- TESTIMONIALS PERSONAL TESTIMONIAL HEADER SECTION END -->
+                                <!-- TESTIMONIALS PERSONAL TESTIMONIAL FOOTER SECTION START -->
+                                <div class="testimonial__footer">
+                                    <div class="testimonial__person--wrapper">
+                                        <figure class="testimonial__headshot--wrapper">
+                                            <img src="./assets/adamtestimonialasset.jpeg" alt="Adam Cuppy headshot img" class="testimonial__headshot">
+                                        </figure>
+                                    </div>
+                                    <div class="testimonial__person--container">
+                                        <h4 class="testimonial__name">Adam Cuppy</h4>
+                                        <div class="testimonial__company">
+                                        Founder, EventsNYC
+                                        </div>
+                                    </div>
+                                    <div class="testimonial__btns--container">
+                                        <div class="testimonial__btn--wrapper">
+                                            <button class="testimonial__btn">
+                                                <img src="./assets/backwardarrowiconasset.svg" class="icon__back-arrow">
+                                            </button>
+                                        </div>
+                                        <div class="testimonial__btn--divider">
+                                            <div class="testimonial__divider">
+                                              |  
+                                            </div>
+                                        </div>
+                                        <div class="testimonial__btn--wrapper">
+                                            <button class="testimonial__btn">
+                                                <img src="./assets/forwardarrowiconasset.svg" class="icon__forward-arrow">
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- TESTIMONIALS PERSONAL TESTIMONIAL FOOTER SECTION END -->
+                            </div>
+                            <!-- TESTIMONIALS (ADAM) PERSONAL TESTIMONIAL SECTION END -->
+                        </div>
+                        <!-- TESTIMONIALS CONTENT SECTION END -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- TESTIMONIALS SECTION END -->
+        <!-- CONTENT END -->
+    </main>
+
+    <!-- FOOTER START -->
+    <footer>
+        <div class="footer__container">
+            <!-- GET STARTED/SIGN UP START -->
+            <section id="get-started">
+                <div class=" get-started__container container">
+                    <div class="get-started__row row ">
+                        <!-- GET STARTED/SIGN UP DESCRIPTION SECTION START -->
+                        <div class="get-started__background--container">
+                            <h4 class="section__subheading get-started__heading">
+                                Developers all over the world are happily using Treact.
+                            </h4>
+                            <!-- GET STARTED/SIGN UP DESCRIPTION SECTION END -->
+                            <!-- GET STARTED/SIGN UP BTNS SECTION START -->
+                            <div class="get-started__btns--container">
+                                <div class="get-started__btn--wrapper">
+                                    <button class="get-started__btn start-btn">
+                                        <a href="https://timerse.com/" class="a__btn">Get Started</a>
+                                    </button>
+                                </div>
+                                <div class="get-started__btn--wrapper">
+                                    <button class="get-started__btn contact-btn">
+                                        <a href="https://www.google.com/" class="a__btn contact__a--btn">Contact Us</a>
+                                    </button>   
+                                </div>
+                            </div>
+                        </div>
+                        <!-- GET STARTED/SIGN UP BTNS SECTION END -->
+                    </div>
+                </div>
+            </section>
+            <!-- GET STARTED/SIGN UP END -->
+            <!-- SITE FOOTER START -->
+            <section id="site-footer">
+                <div class="site-footer__container container">
+                    <div class="footer__row row">
+                        <div class="footer__content--container">
+                            <div class="footer__links--container">
+                                <div class="footer__links--main-container columns">
+                                    <h5 class="footer__link--title">MAIN</h5>
+                                    <ul class="footer__link--list">
+                                        <li class="footer__link">
+                                            <a href="#landing" class="footer__link--a">Blog</a>
+                                        </li>
+                                        <li class="footer__link">
+                                            <a href="#landing" class="footer__link--a">FAQs</a>
+                                        </li>
+                                        <li class="footer__link">
+                                            <a href="#landing" class="footer__link--a">Support</a>
+                                        </li>
+                                        <li class="footer__link">
+                                            <a href="#landing" class="footer__link--a">About Us</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="footer-links__product--container columns">
+                                    <h5 class="footer__link--title">PRODUCT</h5>
+                                    <ul class="footer__link--list">
+                                        <li class="footer__link">
+                                            <a href="#landing" class="footer__link--a">Log In</a>
+                                        </li>
+                                        <li class="footer__link">
+                                            <a href="#landing" class="footer__link--a">Personal</a>
+                                        </li>
+                                        <li class="footer__link">
+                                            <a href="#landing" class="footer__link--a">Business</a>
+                                        </li>
+                                        <li class="footer__link">
+                                            <a href="#landing" class="footer__link--a"> Team</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="footer-links__press--container columns">
+                                    <h5 class="footer__link--title">PRESS</h5>
+                                    <ul class="footer__link--list">
+                                        <li class="footer__link">
+                                            <a href="#landing" class="footer__link--a">Logos</a>
+                                        </li>
+                                        <li class="footer__link">
+                                            <a href="#landing" class="footer__link--a">Events</a>
+                                        </li>
+                                        <li class="footer__link">
+                                            <a href="#landing" class="footer__link--a">Stories</a>
+                                        </li>
+                                        <li class="footer__link">
+                                            <a href="#landing" class="footer__link--a">Office</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="footer-links__team--container columns">
+                                    <h5 class="footer__link--title">TEAM</h5>
+                                    <ul class="footer__link--list">
+                                        <li class="footer__link">
+                                            <a href="#landing" class="footer__link--a">Career</a>
+                                        </li>
+                                        <li class="footer__link">
+                                            <a href="#landing" class="footer__link--a">Founders</a>
+                                        </li>
+                                        <li class="footer__link">
+                                            <a href="#landing" class="footer__link--a">Culture</a>
+                                        </li>
+                                        <li class="footer__link">
+                                            <a href="#landing" class="footer__link--a">Onboarding</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="footer-links__legal--container columns">
+                                    <h5 class="footer__link--title">LEGAL</h5>
+                                    <ul class="footer__link--list">
+                                        <li class="footer__link">
+                                            <a href="#landing" class="footer__link--a">GDPR</a>
+                                        </li>
+                                        <li class="footer__link">
+                                            <a href="#landing" class="footer__link--a">Privacy Policy</a>
+                                        </li>
+                                        <li class="footer__link">
+                                            <a href="#landing" class="footer__link--a">Terms of Service</a>
+                                        </li>
+                                        <li class="footer__link">
+                                            <a href="#landing" class="footer__link--a">Disclaimer</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="footer__divider"></div>
+                            <div class="footer__company-info">
+                                <div class="footer__logo--wrapper">
+                                    <img
+                                        src="./assets/Tfooterlogoasset.svg"
+                                        alt="footer logo"
+                                        class="footer__logo-t"
+                                    />
+                                    <h5 class=footer__logo--name>Treact Inc.</h5>
+                                </div>
+                                <div class="footer__copyright">
+                                    &copy 2018 Treact Inc. All Rights Reserved.
+                                </div>
+                                <div class="footer__social--container">
+                                    <div class="footer__social">
+                                        <a href="https://www.facebook.com/" class="footer__social--link">
+                                            <div class="social-icon__wrapper">
+                                                <i class="fab fa-facebook-f fb-icon social__icon"></i>
+                                            </div>
+                                    </a>
+                                </div>
+                                <div class="footer__social middle-social">
+                                    <a href="https://www.twitter.com/" class="footer__social--link">
+                                        <div class="social-icon__wrapper">
+                                            <i class="fab fa-twitter tw-icon social__icon"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="footer__social">
+                                    <a href="https://www.youtube.com/" class="footer__social--link">
+                                        <div class="social-icon__wrapper">
+                                            <i class="fab fa-youtube yt-icon  social__icon"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- SITE FOOTER END -->
+        </div>
+    </footer>
+    <!-- FOOTER END -->
+</body>
+</html>

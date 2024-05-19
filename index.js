@@ -9,10 +9,15 @@ function dropFunction() {
   }
 }
 
+/* <!-- OPENS MENU ON CLICK AND ADDS POSITION FIXED - REMOVES ON CLICK AFTER --> */
 function openMenu() {
-    document.body.classList += " menu--open"
+  document.querySelector('.nav__container').style.position = "fixed";
+  document.querySelector('.mobile__nav--container').classList.add("menu--open");
+  document.querySelector('.hero__input--wrapper').style.display = "none";
 }
 
 function closeMenu() {
-    document.body.classList.remove( 'menu--open')
+  document.querySelector('.mobile__nav--container').classList.remove("menu--open");
+  document.querySelector('.nav__container').style.removeProperty("position");
+  document.querySelector('.hero__input--wrapper').style.display = "flex";
 }
