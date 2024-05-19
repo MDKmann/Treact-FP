@@ -1152,6 +1152,30 @@ h6 {
   h2 {
     font-size: 2.25rem;
   }
+
+  
+  .hero__input--wrapper {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .hero__input {
+    padding: 1.25rem 12rem 1.25rem 2rem;
+  }
+
+  .hero__input--btn {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    padding: 0;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 10rem;
+    line-height: 1
+  }
   
   .feature__container {
     flex-direction: row;
@@ -1357,30 +1381,6 @@ h6 {
   flex-direction: column;
  }
  
- 
- 
-  .hero__input--wrapper {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .hero__input {
-    padding: 1.25rem 12rem 1.25rem 2rem;
-  }
-
-  .hero__input--btn {
-    position: absolute;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
-    padding: 0;
-    margin-top: 0.5rem;
-    margin-right: 0.5rem;
-    margin-bottom: 0.5rem;
-    width: 10rem;
-    line-height: 1
-  }
 }
   
 /* <!-- SITE MEDIA 768px <= width <= 924px START --> */
@@ -1403,19 +1403,22 @@ h2 {
   display: none;
 }
 
+.mobile__nav--container {
+  display: none;
+}
+
 .nav__links--container {
   display: flex;
 }
 
 .nav__links--list-page,
 .nav__links--list-user {
-  width: 100%;
+  width: fit-content;
   display: flex;
   flex-direction: row;
-  justify-content: ;
   align-items: center;
 }
-
+.nav__link--login,
 .nav__link {
   margin: 0px 1.5rem;
   font-size: 0.875rem;
@@ -1423,6 +1426,40 @@ h2 {
   letter-spacing: 0.025em;
 }
 
+.nav__link--login {
+  margin-left: 3rem;
+  margin-right: 1.5rem;
+}
+
+.nav__link--anchor-primary {
+  margin-right: 0;
+}
+
+.hero__leftcolumn--container {
+  width: calc(40%);
+  max-width: none;
+  text-align: left;
+  margin-left: 2rem;
+}
+
+.hero__rightcolumn--container {
+  width: 60%;
+  margin: 0 0 0 auto;
+}
+
+.hero__rightcolumn--img-wrapper {
+  max-width: 32rem;
+  justify-content: flex-end;
+}
+.hero__input--wrapper,
+.hero__customers--container {
+  margin-left: 0;
+}
+
+}
+.hero__customers--container {
+  text-align: left;
+}
 
 .pricing__columns--container {
   max-width: none;
