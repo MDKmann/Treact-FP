@@ -1073,7 +1073,16 @@ h6 {
 
 .footer__link--a {
   color: #f7fafc;
+  background-image: linear-gradient(#f7fafc, #f7fafc);
 }
+
+.footer__link--a:hover,
+.footer__link--a:focus,
+.footer__link--a:active {
+  color: #f7fafc;
+  background-size: 100% 0.1em;
+}
+
 
 /* <!-- SITE FOOTER DIVIDER --> */
 .footer__divider {
