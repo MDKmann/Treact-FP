@@ -633,6 +633,7 @@ h6 {
   text-align: center;
   border-radius: 9999px;
   border-width: 0px;
+  flex-shrink: 0;
 }
 
 .dollar-icon__wrapper {
@@ -896,7 +897,7 @@ h6 {
   flex-direction: column;
   align-items: center;
 }
-
+ 
 .testimonial__rating--wrapper {
   display: flex;
   justify-content: center;
@@ -1264,7 +1265,7 @@ h6 {
   .section__description--container {
     text-align: left;
     align-items: start;
-    max-width: 50%;
+    width: 50%;
   }
 
 
@@ -1344,6 +1345,7 @@ h6 {
 }
 .testimonials__description--container {
   max-width: 28rem;
+  width: 100%;
 }
 
 .testimonial__container {
@@ -1399,8 +1401,6 @@ h6 {
   
 /* <!-- SITE MEDIA 768px <= width <= 924px START --> */
 @media (768px <= width <= 924px) {
-  
-  
   .testimonial__btns--container {
     width: 100%;
   }
@@ -1409,9 +1409,18 @@ h6 {
 
 /* <!-- SITE MEDIA min-width: 1024px START --> */
 @media (min-width: 1024px) {
+h1 {
+  font-size: 2.25rem;
+}
+
 h2 {
   font-size: 3rem;
 }
+
+p {
+  font-size: 1.125rem;
+}
+
 
 .btn__menu {
   display: none;
@@ -1450,10 +1459,10 @@ h2 {
 }
 
 .hero__leftcolumn--container {
-  width: calc(40%);
+  width: 40%;
   max-width: none;
   text-align: left;
-  margin-left: 2rem;
+  margin-left: 0;
 }
 
 .hero__rightcolumn--container {
@@ -1470,9 +1479,30 @@ h2 {
   margin-left: 0;
 }
 
-}
 .hero__customers--container {
   text-align: left;
+}
+
+.feature__container {
+  width: calc(100% /3);
+  max-width: 24rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.values__description--container {
+  margin-right: 3rem;
+}
+
+.values__description {
+  margin: 2rem 0 0 0;
+}
+
+.values__principles--container {
+  max-width: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .pricing__columns--container {
@@ -1481,11 +1511,16 @@ h2 {
   align-items: stretch;
 }
 
+
+.values__principle--title {
+  margin-left: .5rem;
+}
+
 .bus-background {
   margin-left: 2rem;
   margin-right: 2rem;
 }
-.testimonials__description--container,
+
 .testimonials__content--container,
 .testimonials__img--wrapper {
   max-width: 50%;
@@ -1500,8 +1535,8 @@ h2 {
   padding-right: 2rem;
 }
 
-.get-started__heading {
+  .get-started__heading {
   padding-left: 0;
-}
+  }
 }
 /* <!-- SITE MEDIA QUERIES END --> */
