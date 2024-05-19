@@ -1250,10 +1250,21 @@ h6 {
   p {
     font-size: 1rem;
   }
+
+  .quality-work__img--wrapper,
+  .steps__img--wrapper,
+  .values__img--wrapper {
+    flex-shrink: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+    max-width: 50%;
+  }
+    
   
   .section__description--container {
     text-align: left;
     align-items: start;
+    max-width: 50%;
   }
 
 
@@ -1319,7 +1330,7 @@ h6 {
 }
 
 .testimonials__img--wrapper {
-  width: 41.6667%;
+  max-width: 41.6667%;
 }
 
 .testimonials__container {
@@ -1327,9 +1338,12 @@ h6 {
 }
 
 .testimonials__content--container {
-  width: 58.3333%;
+  max-width: 58.3333%;
   padding-left: 3rem;
   margin-top: 0px;
+}
+.testimonials__description--container {
+  max-width: 28rem;
 }
 
 .testimonial__container {
@@ -1470,6 +1484,11 @@ h2 {
 .bus-background {
   margin-left: 2rem;
   margin-right: 2rem;
+}
+.testimonials__description--container,
+.testimonials__content--container,
+.testimonials__img--wrapper {
+  max-width: 50%;
 }
 
 
