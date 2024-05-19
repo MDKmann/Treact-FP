@@ -1294,6 +1294,11 @@ h6 {
 .section__container--features {
   text-align: center;
   align-items: center;
+  width: 100%;
+}
+
+ .fea-description {
+  max-width: 36rem;
 }
 
   .feature__columns--container {
