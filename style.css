@@ -862,12 +862,12 @@ h6 {
   );
 }
 
-.grad__grn:hover,
-.grad__grn:active {
+.grad__red:hover,
+.grad__red:active {
   background: linear-gradient(
     115deg,
-    rgb(56, 178, 172) 0%,
-    rgb(129, 230, 217) 100%
+    rgb(245, 101, 101) 0%,
+    rgb(254, 178, 178) 100%
   );
 }
 
@@ -1523,12 +1523,12 @@ h6 {
     width: 40%;
     max-width: none;
     text-align: left;
-    margin-left: 0;
+    margin-left: 2rem;
   }
 
   .hero__rightcolumn--container {
     width: 60%;
-    margin: 0 0 0 auto;
+    margin: 0 0 0 2rem;
   }
 
   .hero__rightcolumn--img-wrapper {
