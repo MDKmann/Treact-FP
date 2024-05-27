@@ -1007,6 +1007,12 @@ h6 {
   background-color: #e2e8f0
 }
 
+.testimonial__btn:focus,
+.testimonial__btn:active {
+  outline: 2.5px solid #d4e8f8;
+  transition: none;
+}
+
 .icon__back-arrow,
 .icon__forward-arrow {
   width: 1rem;
